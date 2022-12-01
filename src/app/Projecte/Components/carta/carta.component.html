@@ -1,0 +1,6 @@
+<div *ngIf="carta.status == true" class="carta">
+    {{carta.icon}}
+</div>
+<div *ngIf="carta.status == false" class="carta" (click)="this.carta.mostrar()">
+    ❓
+</div>

@@ -1,0 +1,13 @@
+.carta {
+    padding: 2em 1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: row nowrap;
+    font-size: 3em;
+    margin: .25em;
+    border-radius: 10px;
+    border: 1px solid black;
+    min-width: 50px;
+    min-heigh: 100px;
+}
